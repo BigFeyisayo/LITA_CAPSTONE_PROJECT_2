@@ -42,6 +42,13 @@ It is crucial to clean and get data ready for exploration. In order to do this, 
 ### Exploratory Data Analysis
 ---
 This involves the exploration of data to answer the following questions:
+- Average Revenue Per User
+
+![EDA-ARPU](https://github.com/user-attachments/assets/d4ab9c36-2cce-4576-b8c3-06d93de41382)
+
+- Subscription Type By Revenue
+
+![EDA-Sub_Type_By_Revenue](https://github.com/user-attachments/assets/0a9c351c-6d0d-44f7-81ac-a872a7a0d0d9)
 
 - What is the average subscription duration?
 
