@@ -6,7 +6,6 @@ INCUBATOR HUB: This repository contains a comprehensive Customer Segmentation An
 ### Project Overview
 ---
 
-
 ### Data Sources
 ---
 The primary source of data used here is LITA Capstone Dataset.xlsx. 
@@ -54,6 +53,16 @@ This involves the exploration of data to answer the following questions:
 ### Data Analysis
 ---
 Line of queries/codes used during analysis.
+
+```SQL
+Select
+	Region,
+	Count(CustomerID) AS TotalCustomers
+FROM
+	CustomerData
+GROUP BY 
+	Region
+```
 
 ### Data Visualization
 
