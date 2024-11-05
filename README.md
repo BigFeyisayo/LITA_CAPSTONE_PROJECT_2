@@ -39,3 +39,6 @@ It is crucial to clean and get data ready for exploration. In order to do this, 
     - Filtering the columns.
     - Adding columns I deemed fit.
 
+### Exploratory Data Analysis
+---
+This involves the exploration of data to answer the following questions:
