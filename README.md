@@ -2,7 +2,7 @@
 INCUBATOR HUB: This repository contains a comprehensive Customer Segmentation Analysis for a subscription service. Using Excel, SQL, &amp; PowerBI for my analysis &amp; report.
 
 ### Project Title: Customer Segmentation Analysis
----
+
 ### Project Overview
 ---
 This project is a comprehensive analysis of customer data aimed to identify segments, track subscription types, and analyze trends in cancellations and renewals. The goal is to develop insights to inform business decisions, improve customer retention, and optimize subscription offerings.
