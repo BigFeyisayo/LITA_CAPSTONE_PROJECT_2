@@ -5,7 +5,7 @@ INCUBATOR HUB: This repository contains a comprehensive Customer Segmentation An
 ---
 ### Project Overview
 ---
-This project is a comprehensive analysis of customer data to identify segments, track subscription types, and analyze trends in cancellations and renewals. The aim is to develop insights to inform business decisions, improve customer retention, and optimize subscription offerings.
+This project is a comprehensive analysis of customer data aimed to identify segments, track subscription types, and analyze trends in cancellations and renewals. The goal is to develop insights to inform business decisions, improve customer retention, and optimize subscription offerings.
 
 ### Data Sources
 ---
