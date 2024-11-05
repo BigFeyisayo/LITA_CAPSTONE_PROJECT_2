@@ -5,6 +5,7 @@ INCUBATOR HUB: This repository contains a comprehensive Customer Segmentation An
 ---
 ### Project Overview
 ---
+This project is a comprehensive analysis of customer data to identify segments, track subscription types, and analyze trends in cancellations and renewals. The aim is to develop insights to inform business decisions, improve customer retention, and optimize subscription offerings.
 
 ### Data Sources
 ---
@@ -54,6 +55,7 @@ This involves the exploration of data to answer the following questions:
 ---
 Line of queries/codes used during analysis.
 
+- Retrieve the total number of customers from each region.
 ```SQL
 Select
 	Region,
@@ -62,6 +64,87 @@ FROM
 	CustomerData
 GROUP BY 
 	Region
+```
+
+- Find the most popular subscription type by the number of customers.
+```SQL
+Select
+	SubscriptionType,
+	Count(CustomerID) AS CustomerCount
+FROM
+	CustomerData
+GROUP BY
+	SubscriptionType
+```
+
+- Find customers who canceled their subscription within 6 months.
+```SQL
+SELECT 
+	CustomerName,
+	Canceled,
+	SubscriptionStart
+FROM 
+	CustomerData
+WHERE 
+	Canceled = 0 AND MONTH(SubscriptionStart) <=6
+```
+
+- Calculate the average subscription duration for all customers.
+```SQL
+Select
+	AVG(DATEDIFF(DAY, SubscriptionStart, SubscriptionEnd)) AS AverageDuration
+FROM
+	CustomerData
+```
+
+- Find customers with subscriptions longer than 12 months.
+```SQL
+Select 
+	CustomerID,
+	CustomerName,
+	SubscriptionType
+FROM
+	CustomerData
+WHERE
+	DATEDIFF(day, SubscriptionStart, SubscriptionEnd) > 365
+```
+
+- Calculate total revenue by subscription type.
+```SQL
+Select 
+	SubscriptionType,
+	SUM(Revenue) AS TotalRevenue
+FROM
+	CustomerData
+GROUP BY SubscriptionType
+```
+
+- Find the top 3 regions by subscription cancellations.
+```SQL
+Select
+	TOP 3
+	Region,
+	COUNT(CustomerID) AS CancellationCount
+FROM
+	CustomerData
+WHERE
+	SubscriptionEnd IS NOT NULL
+GROUP BY 
+	Region
+ORDER BY
+	CancellationCount DESC
+```
+
+- Find the total number of active and canceled subscriptions.
+```SQL
+SELECT 
+	Canceled,
+	SUM(CASE WHEN Canceled IS NULL THEN 1 ELSE 0 END) AS ActiveSubscriptions,
+	SUM(CASE WHEN Canceled IS NOT NULL THEN 1 ELSE 0 END) AS CanceledSubscriptions
+FROM 
+	CustomerData
+GROUP BY
+	CustomerID
 ```
 
 ### Data Visualization
