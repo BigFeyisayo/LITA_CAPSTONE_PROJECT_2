@@ -43,7 +43,6 @@ It is crucial to clean and get data ready for exploration. In order to do this, 
 ---
 This involves the exploration of data to answer the following questions:
 
-#### For Customer Data
 - What is the average subscription duration?
 
 ![EDA-Avr_Sub_Duration](https://github.com/user-attachments/assets/48fa04f0-817f-4b00-afff-c9177fdc3853)
@@ -56,3 +55,6 @@ This involves the exploration of data to answer the following questions:
 ---
 Line of queries/codes used during analysis.
 
+### Data Visualization
+
+![CustomerData Dashboard](https://github.com/user-attachments/assets/3b692215-6f93-43fd-9260-414148320f75)
