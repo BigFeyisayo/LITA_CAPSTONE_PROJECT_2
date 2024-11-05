@@ -13,7 +13,6 @@ The primary source of data used here is LITA Capstone Dataset.xlsx.
 
 ### Tools & Technologies
 ---
-For both projects, I made use of the same tools and technologies to carry out me cleaning, analysis and down to visualization.
 - Microsoft Excel: 
   1. For data analysis and visualization.
   2. For data summarization and pivot tables.
