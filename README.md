@@ -42,3 +42,17 @@ It is crucial to clean and get data ready for exploration. In order to do this, 
 ### Exploratory Data Analysis
 ---
 This involves the exploration of data to answer the following questions:
+
+#### For Customer Data
+- What is the average subscription duration?
+
+![EDA-Avr_Sub_Duration](https://github.com/user-attachments/assets/48fa04f0-817f-4b00-afff-c9177fdc3853)
+
+- What is the most popular subscription type?
+  
+![EDA-Most_pop_sub_type](https://github.com/user-attachments/assets/2fc61889-0091-4c82-ab70-c236b24253c4)
+
+### Data Analysis
+---
+Line of queries/codes used during analysis.
+
