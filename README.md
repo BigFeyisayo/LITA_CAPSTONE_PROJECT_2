@@ -5,11 +5,11 @@ INCUBATOR HUB: This repository contains a comprehensive Customer Segmentation An
 ---
 ### Project Overview
 ---
-This project aims to analyze sales data to identify trends, patterns, and insights that can inform business decisions and drive growth.  It focuses on analyzing specific sales data that includes such as sales transactions, customer demographics, product categories, regional sales performance, time-based sales trends. The goal is to provide actionable recommendations to improve sales performance, optimize marketing strategies, and enhance customer engagement.
+
 
 ### Data Sources
 ---
-The primary source of data used here is LITA Capstone Dataset.xlsx. which contains two worksheets; the sales data and the customer data.
+The primary source of data used here is LITA Capstone Dataset.xlsx. 
 
 ### Tools & Technologies
 ---
