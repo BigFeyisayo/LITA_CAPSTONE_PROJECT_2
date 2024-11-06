@@ -3,6 +3,21 @@ INCUBATOR HUB: This repository contains a comprehensive Customer Segmentation An
 
 ### Project Title: Customer Segmentation Analysis
 
+[Project Overview](#project-overview)
+
+[Data Sources](#data-sources)
+
+[Tools And Technologies](#tools-and-technologies)
+
+[Data Cleaning And Preparation](#data-cleaning-and-preparation)
+
+[Exploratory Data Analysis](#exploratory-data-analysis)
+
+[Data Analysis](#data-analysis)
+
+[Data Visualization](#data-visualization)
+
+
 ### Project Overview
 ---
 This project is a comprehensive analysis of customer data aimed to identify segments, track subscription types, and analyze trends in cancellations and renewals. The goal is to develop insights to inform business decisions, improve customer retention, and optimize subscription offerings.
@@ -11,7 +26,7 @@ This project is a comprehensive analysis of customer data aimed to identify segm
 ---
 The primary source of data used here is LITA Capstone Dataset.xlsx. 
 
-### Tools & Technologies
+### Tools And Technologies
 ---
 - Microsoft Excel: 
   1. For data analysis and visualization.
@@ -28,7 +43,7 @@ The primary source of data used here is LITA Capstone Dataset.xlsx.
   2. For data modeling and transformation.
   3. To create interactive dashboards.
 
-### Data Cleaning & Preparation
+### Data Cleaning And Preparation
 ---
 It is crucial to clean and get data ready for exploration. In order to do this, I performed the following:
 
